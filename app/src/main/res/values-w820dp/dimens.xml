@@ -1,0 +1,92 @@
+<resources>
+    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+
+
+    <!--new quiz dimens-->
+
+    /*
+    opt - option
+    iv  - imageview
+    ll - linear layout
+    mar - margin
+    que - question
+    ansbox - whole answer layout
+    queImgAnsBut - ques image ans button
+    marBot - margin bottom
+    wh - width-height
+    tl - tablayout
+    rt-right
+    bt-bottom
+    */
+
+    <dimen name="quiz_quesbox_height">600dp</dimen>
+    <dimen name="quiz_view_height">4dp</dimen>
+
+    <dimen name="quiz_mcq_ansbox_height">852dp</dimen>
+    <dimen name="quiz_mulimage_ansbox_height">1200dp</dimen>
+    <dimen name="quiz_quesimage_ansbox_height">852dp</dimen>
+
+
+    <dimen name="fragment_mcq_options_height">200dp</dimen>
+    <dimen name="fragment_quesimage_options_height">200dp</dimen>
+
+    <dimen name="quiz_mulimage_opt_width">520dp</dimen>
+    <dimen name="quiz_mulimage_opt_height">520dp</dimen>
+
+    <dimen name="quiz_queimgansbut_width">10dp</dimen>
+    <dimen name="quiz_queimgansbut__height">5dp</dimen>
+
+    <dimen name="quiz_dragdrop_que_ll_width">608dp</dimen>
+    <dimen name="quiz_dragdrop_iv_wh">608dp</dimen>
+    <dimen name="quiz_dragdrop_tl_width">608dp</dimen>
+    <dimen name="quiz_dragdrop_tl_height">160dp</dimen>
+
+
+
+    //margins
+    <dimen name="quiz_que_marTop">64dp</dimen>
+    <dimen name="quiz_que_marBot">40dp</dimen>
+    <dimen name="quiz_que_sidemargins">64dp</dimen>
+
+    <dimen name="quiz_mcq_ansbox_marTop">200dp</dimen>
+
+    <dimen name="quiz_mulimage_ansbox_marTop">100dp</dimen>
+    <dimen name="quiz_mulimage_ansbox_topll_marTop">48dp</dimen>
+
+
+    <dimen name="quiz_mulimage_opt_sidemargins">28dp</dimen>
+
+    <dimen name="quiz_quesimage_iv_ll_sidemargins">64dp</dimen>
+    <dimen name="quiz_quesimage_iv_marTop">-160dp</dimen>
+    <dimen name="quiz_quesimage_ansbox_marTop">120dp</dimen>
+    <dimen name="quiz_quesimage_opt_ll_marBot">480dp</dimen>
+
+    <dimen name="quiz_queImgAnsBut_sidemargins">40dp</dimen>
+    <dimen name="quiz_quesImgAnsBut_iv_marTop">-160dp</dimen>
+    <dimen name="quiz_quesImgAnsBut_ansBut_marTopBot">60dp</dimen>
+    <dimen name="quiz_quesImgAnsBut_sugg1_marTop">120dp</dimen>
+    <dimen name="quiz_quesImgAnsBut_sugg2_marBot">480dp</dimen>
+
+    <dimen name="quiz_dragdrop_mainque_ll_sidemargins">64dp</dimen>
+    <dimen name="quiz_dragdrop_iv_marBot">40dp</dimen>
+    <dimen name="quiz_dragdrop_rt_ll_marLeft">80dp</dimen>
+    <dimen name="quiz_dragdrop_bt_ll_marTop">60dp</dimen>
+    <dimen name="quiz_dragdrop_tp_ll_marBot">80dp</dimen>
+    <dimen name="quiz_dragdrop_options_ll_marBot">480dp</dimen>
+    <dimen name="quiz_dragdrop_options_tl_padding">12dp</dimen>
+
+    <dimen name="quiz_truefalse_falsebutton_marLeft">80dp</dimen>
+
+
+    <dimen name="ans_text_size">60sp</dimen>
+    <dimen name="ques_text_size">64sp</dimen>
+
+
+    //same
+    <dimen name="quiz_mcq_opt_tv_width">0dp</dimen>
+    <dimen name="dimen_1dp">1dp</dimen>
+
+</resources>

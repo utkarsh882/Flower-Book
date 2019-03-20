@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="fragment_mulImage" type="id"/>
+
+    <item name="fragment_mcq" type="id"/>
+
+    <item name="settings" type="id">Settings</item>
+</resources>

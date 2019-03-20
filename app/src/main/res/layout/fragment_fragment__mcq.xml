@@ -1,0 +1,164 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    tools:context=".quiz.Fragments.FragmentMCQ">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                android:background="@drawable/drawable_name"
+                android:gravity="center_vertical"
+                android:layout_marginTop="@dimen/ques_text_size"
+                android:layout_marginBottom="@dimen/about_us_textview_paddingLeft">
+
+
+                <TextView
+                    android:id="@+id/question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/ques_text_size"
+                    android:textColor="@color/text_color"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:layout_marginLeft="@dimen/ques_text_size"
+                    android:layout_marginRight="@dimen/ques_text_size"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/optionLayoutmain"
+                android:layout_width="match_parent"
+                android:layout_height="213dp"
+                android:layout_alignParentLeft="true"
+                android:orientation="vertical"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/drawable_name">
+
+                <LinearLayout
+                    android:id="@+id/layoutoptA"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/fragment_mcq_options_height"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/opttextA"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.9"
+                        android:textSize="@dimen/ans_text_size"
+                        android:gravity="center"
+                        android:textColor="@color/black" />
+
+
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/fragment_quiz_backgroud"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/layoutoptB"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/fragment_mcq_options_height"
+
+
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/opttextB"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.9"
+                        android:textSize="@dimen/ans_text_size"
+                        android:gravity="center"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/fragment_quiz_backgroud"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/layoutoptC"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/fragment_mcq_options_height"
+
+
+                    android:orientation="horizontal">
+
+
+
+                    <TextView
+                        android:id="@+id/opttextC"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.9"
+                        android:textSize="@dimen/ans_text_size"
+                        android:gravity="center"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/fragment_quiz_backgroud"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/layoutoptD"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/fragment_mcq_options_height"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/opttextD"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.9"
+                        android:textSize="@dimen/ans_text_size"
+                        android:gravity="center"
+                       android:textColor="@color/black" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/fragment_quiz_backgroud"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</FrameLayout>

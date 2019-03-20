@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?><!-- suppress ALL -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.easternts.flowerworld">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- suppress AndroidDomInspection, AndroidDomInspection -->
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.easternts.flowerworld.flowersubcategory.FlowerSubCategoryMain"
+            android:label="@string/app_name">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.easternts.flowerworld.MainActivity" />
+        </activity>
+        <activity android:name="com.easternts.flowerworld.detailview.DetailActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.easternts.flowerworld.flowersubcategory.FlowerSubCategoryMain" />
+        </activity>
+        <activity android:name="com.easternts.flowerworld.quiz.QuizMainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.easternts.flowerworld.MainActivity" />
+            <!-- <action android:windowSoftInputMode="adjustPan"/> -->
+        </activity>
+        <activity android:name="com.easternts.flowerworld.MainActivity">
+
+        </activity>
+        <activity
+            android:name="com.easternts.flowerworld.settingslayout.SettingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.easternts.flowerworld.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".settingslayout.FAQActivity"
+            android:label="@string/title_activity_faq"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".settingslayout.AboutUsActivity"
+            android:label="@string/title_activity_about_us"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".settingslayout.RateUsActivity"
+            android:label="@string/title_activity_rate_us"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".settingslayout.TellYourFrndActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".settingslayout.FeedbackActivity"
+            android:label="@string/title_activity_feedback"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".flowerfavourite.favouriteview.FavouriteDetailActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.easternts.flowerworld.flowersubcategory.FlowerSubCategoryMain" />
+            >
+        </activity>
+
+        <activity android:name=".floweratoz.atozview.AtoZDetailActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.easternts.flowerworld.flowersubcategory.FlowerSubCategoryMain" />
+        </activity>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="07c42bb4cae0a082560f0e9201956dab7cbf6372" />
+    </application>
+
+</manifest>

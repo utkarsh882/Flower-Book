@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/cv"
+style="@style/CustomCartStyle"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+<ImageView
+    android:id="@+id/flower_category_image"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/imageView_layout_height_grid"
+    android:adjustViewBounds="true"
+    android:scaleType="fitXY" />
+
+<TextView
+    android:id="@+id/flower_category_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="left|bottom"
+    android:layout_marginTop="@dimen/layout_marginTop"
+    android:background="@color/transparent_color"
+    android:textColor="@color/white"
+    android:textSize="@dimen/font_size"
+    android:textStyle="bold"
+    android:ellipsize="marquee"
+    android:maxLength="30"
+    android:maxLines="1"
+    android:padding="@dimen/spacing_large"
+    />
+
+</android.support.v7.widget.CardView>
+

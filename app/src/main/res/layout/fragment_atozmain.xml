@@ -1,0 +1,7 @@
+<LinearLayout android:id="@+id/flower_atoz_ll"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="@dimen/ad_layout_height"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+</LinearLayout>

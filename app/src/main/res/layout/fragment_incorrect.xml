@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="200dp"
+    android:layout_height="60dp"
+    tools:context="angel.com.quiz.Fragments.Incorrect"
+    android:background="@drawable/drawable_name1">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:src="@drawable/incorrect"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/Incorrect"
+        android:textColor="@color/answer_color_incorrect"
+        android:textSize="@dimen/ques_text_size"
+        android:layout_gravity="center"
+        android:padding="@dimen/about_us_textview_paddingLeft"
+        android:layout_marginLeft="-20dp"
+        android:gravity="center"
+
+        android:textAppearance="?android:textAppearanceLarge"/>
+</LinearLayout>
+</FrameLayout>

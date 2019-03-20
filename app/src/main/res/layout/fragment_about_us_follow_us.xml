@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".settingslayout.AboutUsFollowUsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/AboutUsMarginTop"
+            android:background="@color/buttonColor"
+            android:gravity="center"
+            android:paddingLeft="@dimen/AboutUsPaddingLeft">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/foolw_us"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/about_us_page_text_view_size" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="@dimen/WebAboutUsFollowUsFragmenWeight"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/WebAboutUsFollowUsFragmenMargin"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/AboutUsPaddingLeft">
+
+            <TextView
+                android:id="@+id/facebookbutton"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/AboutUsHight2"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_marginRight="2.5dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="@string/facebook"
+                android:textColor="#3b5998"
+                android:textSize="@dimen/AboutUsTextSize" />
+
+            <TextView
+                android:id="@+id/googleplusbutton"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/AboutUsHight2"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2.5dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="@string/googleplus"
+                android:textColor="#dd4b39"
+                android:textSize="@dimen/AboutUsTextSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/WebAboutUsFollowUsFragmenMargin"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/AboutUsPaddingLeft">
+
+            <TextView
+                android:id="@+id/twitterbutton"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/AboutUsHight2"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_marginRight="2.5dp"
+                android:layout_weight="0.5"
+                android:textColor="#55ACEE"
+                android:gravity="center"
+                android:text="@string/twitter"
+                android:textSize="@dimen/AboutUsTextSize" />
+
+            <TextView
+                android:id="@+id/likedinbutton"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/AboutUsHight2"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2.5dp"
+                android:layout_weight="0.5"
+                android:textColor="#007bb5"
+                android:gravity="center"
+                android:text="@string/linkedin"
+                android:textSize="@dimen/AboutUsTextSize" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

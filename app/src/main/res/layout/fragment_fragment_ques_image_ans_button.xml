@@ -1,0 +1,102 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quiz.Fragments.FragmentQuesImageAnsButton">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <LinearLayout
+           android:id="@+id/mainLLtype6"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="@dimen/quiz_quesbox_height"
+               android:orientation="vertical"
+               android:background="@drawable/drawable_name"
+               android:gravity="center_vertical"
+               android:layout_marginTop="@dimen/quiz_que_marTop"
+               android:layout_marginBottom="@dimen/quiz_que_marBot">
+
+
+               <TextView
+                   android:id="@+id/questiontype6"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textSize="@dimen/ques_text_size"
+                   android:textColor="@color/text_color"
+                   android:textAppearance="?android:textAppearanceMedium"
+                   android:layout_marginLeft="@dimen/quiz_que_sidemargins"
+                   android:layout_marginRight="@dimen/quiz_que_sidemargins"
+                   />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:layout_marginLeft="@dimen/quiz_queImgAnsBut_sidemargins"
+               android:layout_marginRight="@dimen/quiz_queImgAnsBut_sidemargins"
+               >
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:id="@+id/queImgForQueImgAnsBtn"
+                   android:src="@drawable/bee_orchid"
+                   android:layout_marginTop="@dimen/quiz_quesImgAnsBut_iv_marTop"
+                   />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/enteredAnsForQueImgAnsBtn"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginBottom="@dimen/quiz_quesImgAnsBut_ansBut_marTopBot"
+               android:layout_marginTop="@dimen/quiz_quesImgAnsBut_ansBut_marTopBot"
+               android:orientation="horizontal"
+               android:layout_marginLeft="@dimen/quiz_queImgAnsBut_sidemargins"
+               android:layout_marginRight="@dimen/quiz_queImgAnsBut_sidemargins"
+               android:gravity="center_horizontal">
+
+           </LinearLayout>
+
+
+           <LinearLayout
+               android:id="@+id/suggestions1ForQueImgAnsBtn"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:orientation="horizontal"
+               android:layout_marginLeft="@dimen/quiz_queImgAnsBut_sidemargins"
+               android:layout_marginRight="@dimen/quiz_queImgAnsBut_sidemargins"
+               android:layout_marginTop="@dimen/quiz_quesImgAnsBut_sugg1_marTop"
+               >
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/suggestions2ForQueImgAnsBtn"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:orientation="horizontal"
+               android:layout_marginBottom="@dimen/quiz_quesImgAnsBut_sugg2_marBot"
+               android:layout_marginLeft="@dimen/quiz_queImgAnsBut_sidemargins"
+               android:layout_marginRight="@dimen/quiz_queImgAnsBut_sidemargins">
+
+           </LinearLayout>
+
+
+    </LinearLayout>
+   </ScrollView>
+
+</FrameLayout>

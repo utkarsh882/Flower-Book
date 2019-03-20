@@ -1,0 +1,70 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.easternts.flowerworld.quiz.Fragments.FragmentTrueFalse">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/quiz_quesbox_height"
+                android:orientation="vertical"
+                android:background="@drawable/drawable_name"
+                android:gravity="center_vertical"
+                android:layout_marginTop="@dimen/quiz_que_marTop"
+                android:layout_marginBottom="@dimen/quiz_que_marBot">
+
+
+                <TextView
+                    android:id="@+id/questiontype6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/ques_text_size"
+                    android:textColor="@color/text_color"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:layout_marginLeft="@dimen/quiz_que_sidemargins"
+                    android:layout_marginRight="@dimen/quiz_que_sidemargins"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="right|center_vertical">
+
+                <Button
+                    android:id="@+id/buttonTrue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/drawable_name"
+                    android:gravity="center"
+                    android:text="True"/>
+
+                <Button
+                    android:id="@+id/buttonFalse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/drawable_name"
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/quiz_truefalse_falsebutton_marLeft"
+                    android:text="False"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</FrameLayout>

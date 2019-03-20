@@ -1,0 +1,71 @@
+
+<resources>
+
+    <style name="AppTheme" parent="BaseTheme"/>
+
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>  <!--set Status Bar Color-->
+        <item name="colorPrimary">@color/primary</item>   <!--set Action Bar or Title Color Color-->
+        <item name="colorControlHighlight">@color/white</item> 
+        <item name="colorAccent">@color/accent</item>
+        <item name="selectableItemBackground">@drawable/selectable_item_background</item>
+        <item name="android:selectableItemBackground">@drawable/selectable_item_background</item>
+    </style>
+
+
+    <style name="FabStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/spacing_large</item>
+        <!--<item name="android:src">@drawable/ic_favorite_black_24dp</item>-->
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">6dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="rippleColor">@android:color/white</item>
+    </style>
+
+
+
+   <!-- <color name="primary">#00BCD4</color>
+    <color name="primary_dark">#0097A7</color>-->
+     <color name="primary">#4CAF50</color>
+    <color name="primary_dark">#388E3C</color>
+    <color name="accent">#4CAF50</color>
+    <!--<color name="green">#4CAF50</color>-->
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="CustomCartStyle">
+        <item name="android:clipChildren">false</item>
+        <item name="cardBackgroundColor">@android:color/white</item>
+        <!--        <item name="cardCornerRadius">9dp</item>-->
+        <item name="cardElevation">2dp</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+
+    <!--Grid-->
+    <dimen name="imageView_layout_width_grid">180dp</dimen>
+    <dimen name="imageView_layout_height_grid">200dp</dimen>
+    <dimen name="layout_marginTop">5dp</dimen>
+    <dimen name="padding">10dp</dimen>
+
+
+    <!--List image wiedth and height-->
+
+    <dimen name="imageView_layout_width_list">130dp</dimen>
+    <dimen name="imageView_layout_height_list">130dp</dimen>
+    <dimen name="textview_layout_marginLeft">5dp</dimen>
+    <dimen name="textview_paddingLeft">5dp</dimen>
+    <dimen name="textview_layout_marginTop">5dp</dimen>
+    <dimen name="font_size">20sp</dimen>
+
+
+
+</resources>

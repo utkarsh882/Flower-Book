@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.easternts.flowerworld.view.SplashView
+    	android:id="@+id/splash_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:removeFromParentOnEnd="true"
+        app:circleRadius="@dimen/splash_circle_radius"
+        app:rotationRadius="@dimen/splash_rotation_radius"
+        app:rotationDuration="@integer/splash_rotation_duration"
+        app:splashDuration="@integer/splash_duration"
+        app:splashBackgroundColor="@color/splash_bg"
+        app:circleColors="@array/splash_circle_colors" />
+
+</FrameLayout>

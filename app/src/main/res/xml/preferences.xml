@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <PreferenceCategory
+        android:summary="See FAQ"
+        android:title="@string/pref_faq_title">
+        <Preference
+            android:key="@string/pref_key_faq"
+            android:summary="@string/pref_faq_summary"
+            android:title="@string/pref_faq">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetClass="com.easternts.flowerworld.settingslayout.FAQActivity"
+                android:targetPackage="com.easternts.flowerworld" />
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:summary="Rate US"
+        android:title="@string/pref_rate_us_title">
+        <Preference
+            android:key="@string/pref_key_rate_us"
+            android:summary="@string/pref_rate_us_summary"
+            android:title="@string/pref_rate_us">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetClass="com.easternts.flowerworld.settingslayout.RateUsActivity"
+                android:targetPackage="com.easternts.flowerworld" />
+        </Preference>
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:summary="Feedback"
+        android:title="@string/pref_feedback_title">
+        <Preference
+            android:key="@string/pref_key_feedback"
+            android:summary="@string/pref_feedback_summary"
+            android:title="@string/pref_feedback">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetClass="com.easternts.flowerworld.settingslayout.FeedbackActivity"
+                android:targetPackage="com.easternts.flowerworld" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:summary="Tell ur Friends"
+        android:title="@string/pref_tellurfrnd_title">
+        <Preference
+            android:key="@string/pref_key_tellurfrnd"
+            android:summary="@string/pref_tellurfrnd_summary"
+            android:title="@string/pref_tellurfrnd">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetClass="com.easternts.flowerworld.settingslayout.TellYourFrndActivity"
+                android:targetPackage="com.easternts.flowerworld" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:summary="About Us"
+        android:title="@string/pref_aboutus_title">
+        <Preference
+            android:key="@string/pref_key_aboutus"
+            android:summary="@string/pref_aboutus_summary"
+            android:title="@string/pref_aboutus_title">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetClass="com.easternts.flowerworld.settingslayout.AboutUsActivity"
+                android:targetPackage="com.easternts.flowerworld" />
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:summary="About Us"
+        android:title="@string/appversiontitle">
+        <Preference
+            android:key="@string/AppVersion"
+            android:summary="@string/pref_appversion_summary"
+            android:title="@string/pref_appversion_title">
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

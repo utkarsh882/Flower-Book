@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <color name="buttonColor">#f5f5f5</color>
+
+    <color name="expandablebuttonColor">#66a65c</color>
+    <!--Menu Color-->
+
+
+    <!--Fregment Question Answer Color  Button -->
+
+    <color name="fragment_quiz_backgroud">#e4e2e5</color>
+    <color name="transparent_color">#80000000</color>
+
+    <color name="about_us_textview_color">#092129</color>
+
+    <color name="text_color">#000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+
+    <color name="quiz_answer_color">#FFDFC4</color>
+    <color name="answer_color_correct">#5a9525</color>
+    <color name="answer_color_incorrect">#a11616</color>
+    <!--<color name="false_quiz_answer_color">#FF6347</color>-->
+
+
+    <color name="splash_bg">#F8F6EC</color>
+    <color name="orange">#FF9600</color>
+    <color name="aqua">#02D1AC</color>
+    <color name="yellow">#FFD200</color>
+    <color name="blue">#00C6FF</color>
+    <color name="green">#00E099</color>
+    <color name="pink">#FF3892</color>
+
+    <array name="splash_circle_colors">
+        <item>@color/green</item>
+        <item>@color/pink</item>
+        <item>@color/orange</item>
+        <item>@color/aqua</item>
+        <item>@color/yellow</item>
+        <item>@color/blue</item>
+    </array>
+</resources>

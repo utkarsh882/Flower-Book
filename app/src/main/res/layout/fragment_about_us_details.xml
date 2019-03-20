@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".settingslayout.AboutUsDetailsFragment">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/AboutUsMarginBottom">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/about_us_textview_paddingBottom"
+                android:paddingLeft="@dimen/about_us_textview_paddingLeft"
+                android:paddingTop="@dimen/about_us_textview_paddingTop"
+                android:text="@string/about_us"
+                android:textColor="@color/about_us_textview_color"
+                android:textSize="@dimen/about_us_page_text_view_size" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/buttonColor"
+                android:paddingLeft="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Functionalities_included"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/about_us_page_text_view_size" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtweurl9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/about_us_textview_paddingBottom"
+                android:paddingLeft="@dimen/about_us_textview_paddingLeft"
+                android:paddingTop="@dimen/about_us_textview_paddingTop"
+                android:text="@string/Functionalities_included_content"
+                android:textColor="@color/about_us_textview_color"
+                android:textSize="@dimen/about_us_page_text_view_size" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/buttonColor"
+                android:paddingLeft="@dimen/about_us_linearLayout_paddingLeft" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Extra_features"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/about_us_page_text_view_size" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtweurl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/about_us_textview_paddingLeft"
+                android:paddingTop="@dimen/about_us_textview_paddingTop"
+                android:text="@string/extera_feature_content"
+                android:textColor="@color/about_us_textview_color"
+                android:textSize="@dimen/contact_us_page_text_view_size" />
+
+            <TextView
+                android:id="@+id/txtweurl1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="10dp"
+                android:text="@string/enjoy_world"
+                android:textColor="@color/about_us_textview_color"
+                android:textSize="@dimen/contact_us_page_text_view_size" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/buttonColor"
+                android:paddingLeft="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/about_us_page_text_view_size" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtweurl2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/about_us_textview_paddingBottom"
+                android:paddingLeft="@dimen/about_us_textview_paddingLeft"
+                android:paddingTop="@dimen/about_us_textview_paddingTop"
+                android:text="@string/privacy_content"
+                android:textColor="@color/about_us_textview_color"
+                android:textSize="@dimen/contact_us_page_text_view_size" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
